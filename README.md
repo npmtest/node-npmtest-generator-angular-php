@@ -1,6 +1,6 @@
 # npmtest-generator-angular-php
 
-#### test coverage for  [generator-angular-php (v0.6.3)](https://github.com/amercier/generator-angular-php)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-angular-php.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-angular-php) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-angular-php.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-angular-php)
+#### basic test coverage for  [generator-angular-php (v0.6.3)](https://github.com/amercier/generator-angular-php)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-angular-php.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-angular-php) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-angular-php.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-angular-php)
 
 #### Yeoman generator for AngularJS with a PHP backend. Based on generator-angular. /api is redirected by grunt-connect-proxy to the PHP built-in server using grunt-php
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-generator-angular-php/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-generator-angular-php/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generator-angular-php/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generator-angular-php/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-angular-php/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-angular-php/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-generator-angular-php/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-generator-angular-php/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-angular-php/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-angular-php/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-generator-angular-php/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generator-angular-php/build/coverage.html/index.html)
 
@@ -122,7 +122,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.6.3"
+    "version": "0.6.3",
+    "bin": {}
 }
 ```
 
